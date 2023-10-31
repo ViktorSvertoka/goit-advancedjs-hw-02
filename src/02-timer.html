@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./image/favicon.ico" />
+    <title>Countdown timer</title>
+
+    <link rel="stylesheet" href="./css/common.css" />
+  </head>
+  <body class="body-timer">
+    <p><a href="./index.html">Go back</a></p>
+
+    <div class="timer-wrap">
+      <input class="picker" type="text" id="datetime-picker" />
+      <button class="btn-start" type="button" data-start>Start</button>
+      <button
+        class="btn-reload"
+        value="Refresh Page"
+        onClick="window.location.href=window.location.href"
+      >
+        Reload page
+      </button>
+    </div>
+
+    <div class="timer">
+      <div class="field">
+        <span class="value" data-days>00</span>
+        <span class="label">Days</span>
+      </div>
+      <div class="field">
+        <span class="value" data-hours>00</span>
+        <span class="label">Hours</span>
+      </div>
+      <div class="field">
+        <span class="value" data-minutes>00</span>
+        <span class="label">Minutes</span>
+      </div>
+      <div class="field">
+        <span class="value" data-seconds>00</span>
+        <span class="label">Seconds</span>
+      </div>
+    </div>
+
+    <script src="./js/02-timer.js" type="module"></script>
+  </body>
+</html>
