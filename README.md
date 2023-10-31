@@ -9,6 +9,15 @@
   [vanilla-app-template](https://github.com/goitacademy/vanilla-app-template).
 - Код відформатований за допомогою `Prettier`.
 
+#### Формат оцінювання:
+
+- Оцінка від 0 до 100
+
+#### Формат здачi:
+
+- Два посилання: на вихідні файли і робочу сторінку на `GitHub Pages`
+- Прикрiплений файл репозиторію у форматi zip
+
 ## Стартові файли
 
 [Завантажуй стартові файли](https://minhaskamal.github.io/DownGit/#/home?url=https:%2F%2Fgithub.com%2Fgoitacademy%2Fjavascript-homework%2Ftree%2Fmain%2Fv2%2F09%2Fsrc)
