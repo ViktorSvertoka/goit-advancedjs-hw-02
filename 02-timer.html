@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/goit-advancedjs-hw-02/assets/favicon-9562b06e.ico" />
+    <title>Countdown timer</title>
+
+    
+    <script type="module" crossorigin src="/goit-advancedjs-hw-02/assets/02-timer-d99e7f08.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-02/assets/modulepreload-polyfill-3cfb730f.js">
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-02/assets/iziToast.min-d85bcc30.js">
+    <link rel="stylesheet" href="/goit-advancedjs-hw-02/assets/iziToast-e5212ee8.css">
+    <link rel="stylesheet" href="/goit-advancedjs-hw-02/assets/02-timer-21fdfc57.css">
+    <link rel="stylesheet" href="/goit-advancedjs-hw-02/assets/common-99814388.css">
+  </head>
+  <body class="body-timer">
+    <p><a href="./index.html">Go back</a></p>
+
+    <div class="timer-wrap">
+      <input class="picker" type="text" id="datetime-picker" />
+      <button class="btn-start" type="button" data-start>Start</button>
+      <button
+        class="btn-reload"
+        value="Refresh Page"
+        onClick="window.location.href=window.location.href"
+      >
+        Reload page
+      </button>
+    </div>
+
+    <div class="timer">
+      <div class="field">
+        <span class="value" data-days>00</span>
+        <span class="label">Days</span>
+      </div>
+      <div class="field">
+        <span class="value" data-hours>00</span>
+        <span class="label">Hours</span>
+      </div>
+      <div class="field">
+        <span class="value" data-minutes>00</span>
+        <span class="label">Minutes</span>
+      </div>
+      <div class="field">
+        <span class="value" data-seconds>00</span>
+        <span class="label">Seconds</span>
+      </div>
+    </div>
+
+    
+  </body>
+</html>
